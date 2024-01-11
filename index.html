@@ -9,15 +9,32 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: hsl(0, 0%, 96%);
         }
         .header {
-            background-color: #008080;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
+            background-color: #e7f2f1;
+            color: black;
+            text-align: left;
+            padding: 0 0;
+        }
+        .float-logo {
+            width: 30%;
+            float: left;
+            padding: 0 0;
+            margin: 0;
+            border: none;
+            background-color: #e7f2f1;
+        }
+        .float-header {
+            width: 70%;
+            height: 200px;
+            float: left;
+            padding: 0 0;
+            margin: 0;
+            background-color: #e7f2f1;
         }
         .nav {
+            width: 100%;
             background-color: #333;
             overflow: hidden;
         }
@@ -61,15 +78,16 @@
 <body>
 
 <div class="header">
-    <h1>TipCo County Health and Human Services</h1>
+    <div class="float-logo"><img width="200" height="200" src="./img/TCHHSlogo.png" /></div>
+    <div class="float-header"></div>
 </div>
-
 <div class="nav">
     <a href="#home">Home</a>
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
     <a href="#about">About Us</a>
 </div>
+
 
 <div class="container">
     <h2>Welcome to TipCo County Health and Human Services</h2>
